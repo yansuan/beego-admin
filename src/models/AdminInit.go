@@ -11,7 +11,7 @@ import (
 	. "github.com/beego/admin/src/lib"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
-	_ "github.com/mattn/go-sqlite3"
+	//_ "github.com/mattn/go-sqlite3"
 )
 
 var o orm.Ormer
